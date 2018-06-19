@@ -1,0 +1,111 @@
+.intro {
+    padding: 0;
+    background: no-repeat;
+}
+
+.intro .intro-slider,
+.intro .intro-slider .item {
+    width: 100%;
+    height: 700px;
+}
+
+.intro .intro-slider .item.one {
+    background: url(../images/introslider/slide1.jpg);
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro .intro-slider .item.two {
+    background: url(../images/introslider/slide2.jpg);
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro .intro-slider .item.three {
+    background: url(../images/introslider/slide3.jpg);
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro .intro-slider .item.four {
+    background: url(../images/introslider/slide4.jpg);
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro .intro-slider .item.five {
+    background: url(../images/introslider/slide5.jpg);
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro .intro-slider .item.six {
+    background: url(../images/introslider/slide6.jpg);
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro .intro-slider .item.seven {
+    background: url(../images/introslider/slide7.jpg);
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro .intro-slider .item .background-image img {
+    width: 100%;
+}
+
+.img-responsive {
+    width:100%;
+}
+
+.intro .intro-slider .container {
+    color: #ffffff;
+    padding: 150px 0;
+}
+
+.intro .intro-slider .container .paddingtop {
+    margin-top: 10%;
+}
+
+.intro .intro-slider .container .intro-section h1 {
+    font-size: 38px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.intro .intro-slider .container .intro-section figure img {
+    max-height: 526px;
+}
+
+.intro .owl-controls {
+    position: relative;
+    bottom: 50px;
+}
+
+.intro .owl-controls .owl-page span {
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    opacity: 1;
+}
+
+.intro .owl-controls .owl-page.active span,
+.intro .owl-controls.clickable .owl-page:hover span {
+    background: #ffffff;
+}
